@@ -24,3 +24,8 @@ BO se alguem mexeu na mesma linha do mesmo arquivo.
 {BRANCH -d}: Usando o comando branch mais o sufixo "-d", deleta a branch com
 segurança, o comando sendo "git branch -d <nome da branch>", se usar o -D o
 bagulho é deletado a força.
+
+{GITIGNORE}: Arquivo que serve como "porteiro": lista o que o Git deve
+ignorar (cache, senhas, venv), para não aparecer no git status nem subir
+com o git add. Só vale para arquivos ainda não rastreados; se já foi
+commitado, usa "git rm --cached nome".
