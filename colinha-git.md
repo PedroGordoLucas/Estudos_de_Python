@@ -29,3 +29,11 @@ bagulho é deletado a força.
 ignorar (cache, senhas, venv), para não aparecer no git status nem subir
 com o git add. Só vale para arquivos ainda não rastreados; se já foi
 commitado, usa "git rm --cached nome".
+
+{DIFF}: mostra linha por linha o que mudou. "git diff" = o que editei e
+ainda não dei add. "git diff --staged" = o que já dei add e ainda não
+commitei. Linhas com - foram removidas, com + foram adicionadas.
+
+{RESTORE}: desfaz coisas. "git restore --staged arq" tira da caixa (desfaz o
+add, mantém a edição). "git restore arq" descarta a edição e volta ao último
+commit (não tem volta, confere com git diff antes).
