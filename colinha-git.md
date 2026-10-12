@@ -37,3 +37,7 @@ commitei. Linhas com - foram removidas, com + foram adicionadas.
 {RESTORE}: desfaz coisas. "git restore --staged arq" tira da caixa (desfaz o
 add, mantém a edição). "git restore arq" descarta a edição e volta ao último
 commit (não tem volta, confere com git diff antes).
+
+{REVERT}: desfaz um commit já feito criando um commit novo que faz o
+contrário. O histórico fica preservado. "git revert HEAD" desfaz o último.
+Cuidado: se rodar de novo, ele desfaz o próprio revert (Reapply).
