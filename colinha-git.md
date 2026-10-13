@@ -41,3 +41,7 @@ commit (não tem volta, confere com git diff antes).
 {REVERT}: desfaz um commit já feito criando um commit novo que faz o
 contrário. O histórico fica preservado. "git revert HEAD" desfaz o último.
 Cuidado: se rodar de novo, ele desfaz o próprio revert (Reapply).
+
+{PULL}: traz do GitHub o que ainda não tenho e atualiza minha pasta. O
+git status não vê mudanças do site sozinho, só depois do pull. Em grupo:
+pull antes de começar a mexer e antes de dar push.
