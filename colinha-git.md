@@ -45,3 +45,7 @@ Cuidado: se rodar de novo, ele desfaz o próprio revert (Reapply).
 {PULL}: traz do GitHub o que ainda não tenho e atualiza minha pasta. O
 git status não vê mudanças do site sozinho, só depois do pull. Em grupo:
 pull antes de começar a mexer e antes de dar push.
+
+{CONFLITO}: acontece quando duas branches mudam a mesma linha. O merge
+para e marca o arquivo com <<<<<<<, ======= e >>>>>>>. Escolho o que fica,
+apago as marcas, git add e git commit. Se me enrolar: git merge --abort.
