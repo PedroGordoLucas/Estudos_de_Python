@@ -49,3 +49,7 @@ pull antes de começar a mexer e antes de dar push.
 {CONFLITO}: acontece quando duas branches mudam a mesma linha. O merge
 para e marca o arquivo com <<<<<<<, ======= e >>>>>>>. Escolho o que fica,
 apago as marcas, git add e git commit. Se me enrolar: git merge --abort.
+
+{PULL REQUEST}: pedido pelo site do GitHub para juntar uma branch na main.
+O grupo revisa antes do merge. Fluxo: branch → commit → push -u → abrir PR
+→ merge no site → git pull na main.
